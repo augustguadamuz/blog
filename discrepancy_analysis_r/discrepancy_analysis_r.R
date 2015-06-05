@@ -34,12 +34,6 @@ x[x$Description.x != x$Description.y | x$Wholesale.Price.x != x$Wholesale.Price.
 
 
 
-# Three main questions to answer
-# Is the product ID in the other list?
-# If the product ID is on the other list, does the description match?
-# If the product ID is on the other list, do the wholesale prices match?
-
-
 # See if the product ID sets are equal
 setequal(list_1$Product.ID, list_2$Product.ID)
 
